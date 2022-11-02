@@ -1,0 +1,1 @@
+export const sleep = async (durationMillis) =>  new Promise((resolve) => window.setTimeout(resolve, durationMillis));
